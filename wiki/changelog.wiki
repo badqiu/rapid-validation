@@ -1,4 +1,8 @@
 #labels Featured
+
+=rapid-validation v1.5.1=
+修正同行显示在没有effects.js时又会转行
+
 =rapid-validation v1.5.0=
 ===主要:===
 	* 框架不依赖与prototype及jquery
