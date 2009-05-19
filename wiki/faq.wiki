@@ -1,8 +1,7 @@
-#summary One-sentence summary of this page.
-
+#labels Featured
 = FAQ =
 
-= 与prototype的兼容问题 =
+== 与prototype的兼容问题 ==
 
 rapid-validation与1.3以后的任何版本prototype都兼容，报错都是由于effect.js与protype.js不兼容导致。
 解决办法有两种：
