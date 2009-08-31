@@ -13,4 +13,4 @@ rapid-validation与1.3以后的任何版本prototype都兼容，报错都是由�
 压缩过的js编码已经转换，无需再转换，直接使用即可。
 
 == js压缩工具 ==
-推荐使用[JSA http://www.xidea.org/project/jsa/]
+推荐使用[http://www.xidea.org/project/jsa/ JSA]
