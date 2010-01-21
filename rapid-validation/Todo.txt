@@ -1,0 +1,7 @@
+1.增加比较的验证
+--2.增加onReset:true以便reset事件自动绑定
+--3.解決_dependsTest中重複測試的問題
+--4.整合tooltip的错误显示效果
+5.ajax验证使用异步方式
+6.框架不依赖与prototype及jquery : http://www.blogjava.net/beansoft/archive/2008/07/03/212407.html
+7.国际化提供可以给外部切换语言的能力

@@ -1,0 +1,19 @@
+<project name="rapid-validation" default="zip" basedir=".">
+	<property name="version" value="v1.5.2"/>
+	<target name="zip" >
+		<delete dir="dist"/>
+		<mkdir dir="dist"/>
+		<zip destfile="dist/rapid-validation-${version}.zip">
+			<zipfileset dir="." prefix="${ant.project.name}">
+				<include name="doc/**"/>
+				<include name="example/**"/>
+				<include name="lib/**"/>
+				<include name="src/**"/>
+				<include name="styles/**"/>
+				<include name="test/**"/>
+				<include name="*.txt"/>
+				<include name="*.txt"/>
+			</zipfileset>
+		</zip>
+	</target>
+</project>
