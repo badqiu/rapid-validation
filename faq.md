@@ -1,0 +1,15 @@
+# FAQ #
+
+## 与prototype的兼容问题 ##
+
+rapid-validation与1.3以后的任何版本prototype都兼容，报错都是由于effect.js与protype.js不兼容导致。
+解决办法有两种：
+  1. 请致http://script.aculo.us/下载最新版本的effects.js
+  1. 删除effect.js
+
+## 编码问题 ##
+现在未压缩的js源文件默认的GB2312编码，如使用utf-8编码，请将源代码另存为utf-8编码即可.
+压缩过的js编码已经转换，无需再转换，直接使用即可。
+
+## js压缩工具 ##
+推荐使用[JSA](http://www.xidea.org/project/jsa/)

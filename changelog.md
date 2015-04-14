@@ -1,0 +1,17 @@
+# rapid-validation v1.5.1 #
+
+  * 修正同行显示在没有effects.js时又会转行
+
+# rapid-validation v1.5.0 #
+### 主要: ###
+  * 框架不依赖与prototype及jquery
+  * 增加onReset:true以便reset事件自动绑定
+  * 解決\_dependsTest中重複測試的問題
+
+### 显示风格 ###
+  * 增加 同行显示错误消息的效果
+  * 增加 javaeye的 tooltip 显示效果
+
+### New Validator ###
+  * great-than-equal : 大于等于
+  * less-than-equal : 小于等于
